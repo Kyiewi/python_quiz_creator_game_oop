@@ -6,11 +6,11 @@ def load_and_scale(path):
 
 def load_assets():
     return {
-        "quiz_template": load_and_scale("../ASSET 2/quiz_template.png"),
-        "sad": load_and_scale("../ASSET/sad.png"),
-        "exit": load_and_scale("../ASSET/Exit.png"),
-        "correct": load_and_scale("../ASSET/correct.png"),
-        "wrong": load_and_scale("../ASSET/wrong.png"),
+        "quiz_template": load_and_scale("../quiz_creator_game_oop/ASSET 2/quiz_template.png"),
+        "sad": load_and_scale("../quiz_creator_game_oop/ASSET/sad.png"),
+        "exit": load_and_scale("../quiz_creator_game_oop/ASSET/Exit.png"),
+        "correct": load_and_scale("../quiz_creator_game_oop/ASSET/correct.png"),
+        "wrong": load_and_scale("../quiz_creator_game_oop/ASSET/wrong.png"),
         "start_images": [load_and_scale(f'ASSET 2/START/Start ({i}).png') for i in range(1, 13)],
         "loading_images": [load_and_scale(f'ASSET/LOADING/loading ({i}).png') for i in range(1, 23)],
         "click_sound": pygame.mixer.Sound("SOUNDS/click.mp3")
