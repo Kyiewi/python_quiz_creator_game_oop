@@ -1,0 +1,7 @@
+Number:1
+Question:You are my fire
+A:the one desire
+B:We are two
+C:I want it that
+D:ain't nothing 
+Correct Answer:A
